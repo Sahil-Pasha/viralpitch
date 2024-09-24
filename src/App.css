@@ -39,7 +39,7 @@
   color: white;
 }
 
-.zoom-in {
+.images {
   width: 220px;
   height: 220px;
   animation: zoomInEffect 1s ease-in-out forwards;

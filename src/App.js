@@ -14,7 +14,7 @@ function App() {
         </p>
         <div className="image-container">
           <div>
-            <img src={paidCollabs} className="zoom-in" alt="Paid Collabs" />
+            <img src={paidCollabs} className="images" alt="Paid Collabs" />
             <p className="section-text">
               <span className="more-text">more</span> paid brand collabs
             </p>
@@ -22,7 +22,7 @@ function App() {
           <div>
             <img
               src={celebrityCollabs}
-              className="zoom-in"
+              className="images"
               alt="Celebrity Collabs"
             />
             <p className="section-text">
@@ -30,17 +30,13 @@ function App() {
             </p>
           </div>
           <div>
-            <img src={referFriend} className="zoom-in" alt="Refer Friends" />
+            <img src={referFriend} className="images" alt="Refer Friends" />
             <p className="section-text">
               refer friends for <span className="more-text">more</span> returns
             </p>
           </div>
           <div>
-            <img
-              src={launchBrand}
-              className="zoom-in"
-              alt="Launch Your Brand"
-            />
+            <img src={launchBrand} className="images" alt="Launch Your Brand" />
             <p className="section-text">
               launch your own brand & <span className="more-text">more</span>
             </p>
